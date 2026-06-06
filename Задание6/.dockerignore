@@ -1,0 +1,4 @@
+*.bad
+*.md
+dockerfile
+.dockerignore
