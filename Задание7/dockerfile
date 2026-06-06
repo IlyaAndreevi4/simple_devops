@@ -1,0 +1,5 @@
+FROM mostafamoradian/xk6-kafka:latest
+USER 0
+RUN apk add --no-cache nano
+USER 12345
+ENTRYPOINT ["/bin/sh"]
